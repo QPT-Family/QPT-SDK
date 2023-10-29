@@ -38,5 +38,4 @@ jobs:
         ls -l
         cd 'QPT-SDK/'${{ github.event.inputs.setup_path }}
         ls -l
-        twine check dist/*
         twine upload dist/*
