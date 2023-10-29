@@ -13,3 +13,5 @@
 ## 备注
 构建：python setup.py sdist bdist_wheel  
 twine upload dist/*
+
+发包前要在版本号后再加一个版本号

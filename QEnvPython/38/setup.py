@@ -7,7 +7,7 @@ from setuptools import setup
 
 setup(
     name='QEnvPython',
-    version="3.8.10",
+    version="3.8.10.1",
     packages=["python", "tkinter"],
     url='https://github.com/GT-ZhangAcer/QPT',
     license='MIT',
