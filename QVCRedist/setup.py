@@ -6,9 +6,9 @@
 from setuptools import setup
 
 setup(
-    name='QEnvPython',
-    version="3.8.10.1",
-    packages=["python", "tkinter"],
+    name='QVCRedist',
+    version="1.0",
+    packages=["vcredist"],
     url='https://github.com/GT-ZhangAcer/QPT',
     license='MIT',
     author='GT-ZhangAcer',
@@ -16,5 +16,5 @@ setup(
     description='QPT-Python环境打包工具 SDK',
     python_requires='>=3.8',
     include_package_data=True,
-    include_dirs=["python", "tkinter"]
+    include_dirs=["vcredist"]
 )
