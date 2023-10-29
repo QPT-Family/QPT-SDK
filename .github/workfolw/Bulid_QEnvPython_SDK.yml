@@ -1,8 +1,8 @@
 name: Build
 
-# Controls when the workflow will run
+# Controls when the workflows will run
 on:
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows you to run this workflows manually from the Actions tab
   workflow_dispatch:
     inputs:
       path:
@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: QPT-Family/QPT-SDK/G-PythonSDK
+    - uses: actions/checkout@v2
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
