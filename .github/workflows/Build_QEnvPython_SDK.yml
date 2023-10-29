@@ -28,8 +28,8 @@ jobs:
         git clone -b ${{ github.event.inputs.branch_path }} 'https://github.com/QPT-Family/QPT-SDK'
         cd 'QPT-SDK/'${{ github.event.inputs.setup_path }}
         python -m pip install --upgrade pip 
-        pip install setuptools wheel twine
-        python setup.py sdist bdist_wheel
+        pip install setuptools twine
+        python setup.py sdist
     - name: Publish package
       env:
           TWINE_USERNAME: __token__
