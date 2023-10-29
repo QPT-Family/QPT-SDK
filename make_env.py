@@ -7,7 +7,7 @@ import shutil
 import glob
 import subprocess
 
-ENV_PATH = "QEnvPython3.8.10/python"
+ENV_PATH = "QEnvPython/python"
 VERSION = 38
 
 

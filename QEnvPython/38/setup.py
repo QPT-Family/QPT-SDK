@@ -4,12 +4,11 @@
 # Please indicate the source for reprinting.
 
 from setuptools import setup
-from setuptools import find_packages
 
 setup(
     name='QEnvPython',
     version="3.8.10",
-    packages=find_packages(),
+    packages=["python", "tkinter"],
     url='https://github.com/GT-ZhangAcer/QPT',
     license='MIT',
     author='GT-ZhangAcer',
