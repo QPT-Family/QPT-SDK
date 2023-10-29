@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         git clone -b ${{ github.event.inputs.branch_path }} 'https://github.com/QPT-Family/QPT-SDK'
-        cd 'QPT-SDK\'${{ github.event.inputs.setup_path }}
+        cd 'QPT-SDK/'${{ github.event.inputs.setup_path }}
         python -m pip install --upgrade pip
         pip install build
         python -m build
