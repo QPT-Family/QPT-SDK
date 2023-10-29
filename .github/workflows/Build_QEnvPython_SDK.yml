@@ -4,6 +4,10 @@ name: Build
 on:
   # Allows you to run this workflows manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      setup_path:
+        description: 'setup.py所在目录'
+        required: true
 
 jobs:
   deploy:
@@ -17,11 +21,11 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: |
-        cd ${{ github.event.inputs.path }}git
+        git clone 'https://github.com/QPT-Family/QPT-SDK/'${{ github.event.inputs.setup_path }}
+        cd ${{ github.event.inputs.setup_path }}
         python -m pip install --upgrade pip
         pip install build
-    - name: Build package
-      run: python -m build
+        python -m build
     - name: Publish package
       uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
       with:
