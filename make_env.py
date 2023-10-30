@@ -35,6 +35,7 @@ def edit_pth(path):
 ./DLLs
 ./libs
 ./tcl
+../resources
 """)
     with open(os.path.join(path, f"python{VERSION}._pth"), "w", encoding="utf-8") as f:
         f.write(text)
