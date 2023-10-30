@@ -1,1 +1,1 @@
-recursive-include vcredist *
+recursive-include QPT_SDK *
