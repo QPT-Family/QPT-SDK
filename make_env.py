@@ -36,6 +36,7 @@ def edit_pth(path):
 ./libs
 ./tcl
 ../resources
+import site
 """)
     with open(os.path.join(path, f"python{VERSION}._pth"), "w", encoding="utf-8") as f:
         f.write(text)
