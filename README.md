@@ -5,9 +5,9 @@
 
 ## 一、官方制作SDK
 ## Python SDK
-
+[QEnvPython: Python Embedding+Tkinter SDK](https://github.com/QPT-Family/QPT-SDK/tree/G-PythonSDK)
 ## Tkinter（Tk/Tcl） SDK
-
-## VcRedist 2019 SDK
-
+[QEnvPython: Python Embedding+Tkinter SDK](https://github.com/QPT-Family/QPT-SDK/tree/G-PythonSDK)
+## VCRedist 2019 SDK
+[VCRedist 2019 SDK](https://github.com/QPT-Family/QPT-SDK/tree/G-PythonSDK)
 ## 二、开发者贡献SDK
