@@ -10,6 +10,7 @@ import subprocess
 ENV_PATH = "QEnvPython/python"
 VERSION = 38
 
+# ToDO 删除TK下的idlelib和Demo
 
 def install_pip(path):
     arg = f'{os.path.join(os.path.abspath("./"), path, "python.exe")}'

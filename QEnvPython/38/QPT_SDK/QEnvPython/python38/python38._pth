@@ -5,3 +5,5 @@ python38.zip
 ./DLLs
 ./libs
 ./tcl
+
+import site
