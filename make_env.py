@@ -10,6 +10,7 @@ import subprocess
 ENV_PATH = "QEnvPython/python"
 VERSION = 38
 
+
 # ToDO 删除TK下的idlelib和Demo
 
 def install_pip(path):
@@ -33,10 +34,12 @@ def edit_pth(path):
 .
 ./Lib
 ./Lib/site-packages
+./Lib/ext
 ./DLLs
 ./libs
 ./tcl
 ../resources
+Scripts
 import site
 """)
     with open(os.path.join(path, f"python{VERSION}._pth"), "w", encoding="utf-8") as f:

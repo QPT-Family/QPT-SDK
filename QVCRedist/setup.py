@@ -7,7 +7,7 @@ from setuptools import setup
 
 setup(
     name='QVCRedist',
-    version="1.0.2",
+    version="1.0.3",
     packages=["QPT_SDK"],
     url='https://github.com/GT-ZhangAcer/QPT',
     license='MIT',
