@@ -1,0 +1,11 @@
+python311.zip
+.
+./Lib
+./Lib/site-packages
+./Lib/ext
+./DLLs
+./libs
+./tcl
+../resources
+Scripts
+import site
