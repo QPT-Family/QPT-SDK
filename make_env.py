@@ -7,11 +7,11 @@ import shutil
 import glob
 import subprocess
 
-ENV_PATH = "QEnvPython/python"
-VERSION = 38
+VERSION = 39
+ENV_PATH = f"QEnvPython/{VERSION}/QPT_SDK/QEnvPython/python{VERSION}"
 
 
-# ToDO 删除TK下的idlelib和Demo
+# ToDO 删除TK下的idlelib和Demo - 放在确认列表中
 
 def install_pip(path):
     arg = f'{os.path.join(os.path.abspath("./"), path, "python.exe")}'

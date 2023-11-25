@@ -14,7 +14,7 @@ setup(
     author='GT-ZhangAcer',
     author_email='zhangacer@foxmail.com',
     description='QPT-Python环境打包工具 SDK',
-    python_requires='>=3.8',
+    # python_requires='=3.8',
     include_package_data=True,
     include_dirs=["QPT_SDK"]
 )
