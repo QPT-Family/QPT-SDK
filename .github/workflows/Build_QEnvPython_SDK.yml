@@ -1,4 +1,4 @@
-name: Build SDK ${{ github.event.inputs.setup_path }}
+name: Build SDK for ${{ github.event.inputs.setup_path }}
 
 # Controls when the workflows will run
 on:
