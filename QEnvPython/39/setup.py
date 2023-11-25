@@ -6,7 +6,7 @@
 from setuptools import setup
 
 setup(
-    name='QEnvPython',
+    name='QEnvPython39',
     version="3.9.13",
     packages=["QPT_SDK"],
     url='https://github.com/GT-ZhangAcer/QPT',
