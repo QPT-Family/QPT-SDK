@@ -13,7 +13,7 @@ setup(
     license='MIT',
     author='GT-ZhangAcer',
     author_email='zhangacer@foxmail.com',
-    description='QPT-Python环境打包工具 SDK',
+    description='QPT-Python环境打包工具 Python SDK',
     # python_requires='=3.9',
     include_package_data=True,
     include_dirs=["QPT_SDK"]
