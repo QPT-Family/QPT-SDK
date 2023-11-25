@@ -7,7 +7,7 @@ import shutil
 import glob
 import subprocess
 
-VERSION = 39
+VERSION = 312
 ENV_PATH = f"QEnvPython/{VERSION}/QPT_SDK/QEnvPython/python{VERSION}"
 
 
