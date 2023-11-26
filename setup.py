@@ -10,7 +10,7 @@ from setuptools import find_packages
 
 setup(
     name='QPT_SDK',
-    version='1.0',
+    version='1.0.1',
     packages=find_packages(),
     url='https://github.com/GT-ZhangAcer/QPT',
     license='LGPL',
